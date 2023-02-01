@@ -1,4 +1,7 @@
 .navbar {
-    border: 1px solid chocolate;
+    border: 1px solid red;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
 
 }

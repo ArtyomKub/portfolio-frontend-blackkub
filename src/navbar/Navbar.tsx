@@ -1,12 +1,15 @@
 import React from 'react';
-import styles from './Navbar.module.css'
+import style from './Navbar.module.css'
 
-const Navbar = () => {
+export const Navbar = () => {
     return (
-        <div className={styles.navbar}>
-
+        <div className={style.navbar}>
+            <a href="">HOME</a>
+            <a href="">ABOUT</a>
+            <a href="">SKILLS</a>
+            <a href="">PORTFOLIO</a>
+            <a href="">CONTACT</a>
         </div>
     );
 };
 
-export default Navbar;
