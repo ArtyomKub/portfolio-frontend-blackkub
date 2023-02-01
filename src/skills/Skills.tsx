@@ -1,10 +1,16 @@
 import React from 'react';
-import styles from './Skills.module.css'
+import style from './Skills.module.css'
+import stylesContainer from '../common/styles/Container.module.css'
 
 export const Skills = () => {
     return (
-        <div className={styles.skillsBlock}>
+        <div className={style.skillsBlock}>
+            <div className={`${stylesContainer.container} ${style.skillsContainer}`}>
+                <h2 className={style.title}>MY EXPERIENCES</h2>
+                <div className={style.skills}>
 
+                </div>
+            </div>
         </div>
     );
 };
