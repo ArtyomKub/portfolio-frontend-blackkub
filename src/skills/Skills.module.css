@@ -1,0 +1,7 @@
+.skillsBlock {
+    height: 100vh;
+    background-color: #0de16b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
